@@ -1,0 +1,64 @@
+
+
+.vlan-content {
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    margin-top: 3rem ;
+    margin-left: 24rem;
+    
+}
+
+.vlan-content h1 {
+
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0.005em;
+color:  #8773B2 ;
+}
+
+.vlan-content p {
+
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 28px;
+line-height: 153.1%;
+
+color: #a8a8a8;
+
+margin-top: 1.5 rem;
+}
+
+
+.vlan-image {
+    flex: 1;
+    display: flex;
+    position: fixed ;
+    left: 1100px;
+    top: 200px;
+}
+
+
+.vlan-image img {
+
+    width: 600.2px;
+    height: 500.2px; 
+}
+
+#hlp6{
+    width: 450px;
+    height: 90%;
+}
+.titreaideVlans{
+    position: absolute;
+    top :120px;
+    left: 400px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0.005em;
+    color:  #fcfcfc ;
+}

@@ -1,0 +1,295 @@
+.Styled-table {
+    position: absolute;
+    left: 360px;
+    top: 185px;
+    border-collapse: collapse ;  /*  pour détermine si les bordures d'un tableau sont séparées ou fusionnées. */
+   /* margin: auto ;*/
+    max-width: 1100px;  /* pour définir la largeur maximale d'un élément donné*/
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 153%;
+    /* identical to box height, or 21px */
+    
+    text-align: center !important;
+    letter-spacing: 0.005em;
+
+   
+}
+.Styled-table thead tr {
+  /*  background-color: #04ac6e; */
+   /* background-color: #009879;*/
+  /*  background-color: #855098;*/
+
+  background-color:   #775fa8;
+    /* the background color the first row*/
+    color: white; /** the first row 'l'écriture'*/
+   
+
+}
+
+.Styled-table th 
+.Styled-table td {
+    border-bottom: 0.02px  #ffffff ;
+    padding: 12px 15px; /*padding : pour  définir les différents écarts de remplissage sur les quatre côtés d'un élément */
+}
+
+.Styled-table tbody tr {
+    border-bottom: 0.02px  #ffffff; 
+
+    border-top: 0.02px #ffffff !important;
+    text-align: center !important;/* the border for each row */
+}
+
+.Styled-table tbody tr:nth-of-type(even) {
+    background: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 153.1%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.005em;
+    text-align: center !important;
+    color: black;
+    border-top: 0.02px #ffffff !important;
+
+}
+.Styled-table tbody tr:nth-of-type(odd) {
+    background: #a8a3a3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 153.1%;
+   /* identical to box height, or 23px */
+    text-align: center !important;
+    letter-spacing: 0.005em;
+
+    color: black;
+    border-top: 0.02px #ffffff !important;
+
+}
+
+.Styled-table tbody tr:last-of-type {
+    border-top: 0.02px #ffffff !important;
+    border-bottom: 0.02px  #ffffff; /* border of the last row**/
+}
+
+
+ .btn-view {
+  /*  background: linear-gradient(149.19deg, #6970D0 10.94%, #8773B2 67.38%);*/
+   background: #008cba;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+   /* Note: backdrop-filter has minimal browser support */
+
+    
+     color:black ;
+     border: none ; 
+     color :white ;
+     padding: 5px 8px ;
+     text-align: center;
+     text-decoration: none ;
+     display: inline-block;
+     border-radius: 5px ;
+     font-size : 16px;
+     margin: 4px 2px;
+     cursor: pointer ;
+ }
+
+ .btn-delete{
+    background:  #e34949 ;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+   /* Note: backdrop-filter has minimal browser support */
+
+     border-radius: 26px;
+     color:black ;
+     border: none ; 
+     color :white ;
+     padding: 5px 8px ;
+     text-align: center;
+     text-decoration: none ;
+     display: inline-block;
+     border-radius: 5px ;
+     font-size : 16px;
+     margin: 4px 2px;
+     cursor: pointer ;
+ }
+ .searchfilter {
+    position: absolute;
+    width: 230px !important;
+    height: 30px !important;
+    left: 400px;
+    top: 130px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 132.6%;
+    /* or 20px */
+
+   letter-spacing: 0.005em;
+
+   color: black !important;
+
+   opacity: 0.57;
+   background-color: #FFFFFF !important;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   /*box-shadow: 6px 4px 28px rgba(0, 0, 0, 0.25);*/
+   backdrop-filter: blur(30px);
+   /* Note: backdrop-filter has minimal browser support */
+   
+   border-radius: 23px;
+ }
+
+ .searchloop{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 600px;
+    top: 140px;
+ }
+
+ .pagination {
+    position: absolute;
+    width: 124px;
+    height: 33.95px;
+    left: 1000px;
+    top: 665px;
+  
+ }
+
+p.page-link {
+    background: linear-gradient(106.88deg, rgba(255, 255, 255, 0.37) -69.25%, rgba(255, 255, 255, 0) 113.35%) !important ;
+    color :#FFFFFF !important ;
+    border-radius: 10px !important;
+    margin: 0 4px;
+    padding: 8px;
+    font-size: 20px;
+   /* border-color: #844f8b !important;*/
+}
+ .page-item-active  .page-link {
+     
+     background-color:  linear-gradient(106.88deg, rgba(255, 255, 255, 0.37) -69.25%, rgba(255, 255, 255, 0) 113.35%)!important;
+     border-radius: 10px !important;
+     border-color: #844f8b !important;
+     font-size: 20px;
+   
+ }
+ .switch-actif{
+   
+   width: 100px;
+   height: 40px;
+   border-radius: 10px;
+   border: 0ch;
+   padding: 8px !important;
+   background:  #04AA6D !important;
+     
+ }
+ .switch-passif{ 
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0ch;
+    padding: 8px !important;
+    background:  rgb(255, 162, 0) !important;
+ }
+ 
+ .switch-au-magazin{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0ch;
+    padding: 8px !important;
+    background:  rgb(133, 150, 180) !important;
+ }
+
+
+
+
+ .yapasdeswitch{
+    position: absolute;
+    left: 550px;
+    top: 400px;
+    color: #FFFFFF;
+    text-align: center;
+ }
+/*
+.filtrerVlan .select-selected {
+    background-color: DodgerBlue;
+}*/
+ #listeClasse1{
+    position: absolute;
+    left: 950px;
+    top: 55px !important;
+    width: 150px !important;
+    height: 30px !important;
+    border-radius: 8px;
+    font-family: "popins";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer ;
+    text-align: center;
+    color: black;
+    background-color: #fcfcfc;
+
+    
+
+    
+ }
+ #listeClasse2{
+    position: absolute;
+    left: 1120px;
+    top: 55px !important;
+    width: 150px !important;
+    height: 30px !important;
+    border-radius: 8px;
+    font-family: "popins";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bolder;
+    margin: 4px 2px;
+    cursor: pointer ;
+    text-align: center;
+    color: black;
+    background-color: #fcfcfc;
+
+
+    border: none;
+}
+.options{
+    cursor: pointer;
+}
+.searchSalle{
+  position: absolute;
+  width: 100px !important;
+  height: 30px !important;
+  top:50px;
+  left :380px;
+}
+.searchPrise{
+    position: absolute;
+    width: 100px !important;
+    height: 30px !important;
+    top:50px;
+    left :490px;
+}
+.typeport{
+    position: absolute;
+    top:100px;
+    left :450px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+
+}

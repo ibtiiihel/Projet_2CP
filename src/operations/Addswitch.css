@@ -1,0 +1,243 @@
+
+
+.body {
+    background-color: rgba(18, 20, 28, 1) ;
+}
+.styleh2{
+    position: absolute;
+    width: 220px;
+    height: 37px;
+    left: 285px;
+    top: 23px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 153.1%;
+    /* identical to box height, or 37px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+ }
+
+.form {
+    position: absolute;
+    width: 796px;
+    height: 586px;
+    left: 360px;
+    top: 88px;
+
+    background: #12141C;
+    box-shadow: 2px 4px 33px 4px rgba(255, 255, 255, 0.06);
+    border-radius: 40px;
+}
+
+input[type=text ] {
+    position: absolute;
+    width: 292px;
+    height: 52px;
+    background :#FFFFFF;
+    color: black;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 750;
+    font-size: 16px;
+
+   /*background: linear-gradient(105.81deg, rgba(255, 255, 255, 0.37) -64.54%, rgba(255, 255, 255, 0) 100.63%);*/
+   border: 0.5px rgba(0, 0, 0, 0.2);
+   /*box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);*/
+   backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+   border-radius: 47px;
+   padding:10px;
+   margin:10px 0; 
+  }
+
+  input[type=number ] {
+    position: absolute;
+    width: 292px;
+    height: 52px;
+    background :#FFFFFF;
+    color: black;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 750;
+    font-size: 16px;
+
+  /* background: linear-gradient(105.81deg, rgba(255, 255, 255, 0.37) -64.54%, rgba(255, 255, 255, 0) 100.63%);*/
+   border: 1px solid rgba(0, 0, 0, 0.2);
+  /* box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);*/
+   backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+   border-radius: 47px;
+   padding:10px;
+   margin:10px 0; 
+  }
+
+  input::-webkit-outer-spin-button,
+   input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+    margin: 0;
+   }
+
+
+
+  input[type=date ] {
+    position: absolute;
+    width: 292px;
+    height: 52px;
+    color: black;
+    background :#FFFFFF;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 750;
+    font-size: 16px;
+   /*background: linear-gradient(105.81deg, rgba(255, 255, 255, 0.37) -64.54%, rgba(255, 255, 255, 0) 100.63%);*/
+   border: 1px solid rgba(0, 0, 0, 0.2);
+  /* box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);*/
+   backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+
+   border-radius: 47px;
+   padding:10px;
+   margin:10px 0; 
+
+  }
+  ::-webkit-calendar-picker-indicator{
+    background-color: #FFFFFF;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+ 
+  .modele {
+    position: absolute;
+    left: 415px;
+    top: 100px;
+  }
+
+  .marque {
+    position: absolute;
+    left: 80px;
+    top: 100px;
+
+  }
+  .N_inventaire {
+
+    position: absolute;
+    left: 80px;
+    top: 170px;
+  }
+  .N_serie {
+
+    position: absolute;
+    left: 415px;
+    top: 170px;
+
+  }
+  .DMAC{
+    position: absolute;
+    left: 80px;
+    top: 240px ;
+      
+  }
+  .date_d_achat {
+    position: absolute;
+    left: 415px;
+    top: 240px;
+
+  }
+
+  .Nombre_de_ports_FE{
+    position: absolute;
+    left: 80px;
+    top: 310px;
+  }  
+
+  .Nombre_de_ports_GE {
+    position: absolute;
+    left: 415px;
+    top: 310px;
+  }
+
+  .Nombre_de_ports_SFP{
+    position: absolute;
+    left: 80px;
+    top: 380px;
+  }
+  .Nombre_de_ports_SFP_plus{
+    position: absolute;
+    left: 415px;
+    top: 380px;
+  }
+
+  input[ type="submit" ] {
+    width: 100%;
+    background: linear-gradient(95.67deg, #616FD7 -5.25%, rgba(0, 255, 255, 0.76) 46.88%, #616FD7 93.54%);
+    box-shadow: 4px 2px 38px -8px rgba(252, 252, 252, 0.25);
+    border-radius: 40px;
+    color:white;
+    padding: 14px 28px;
+    margin: 8px 0;
+    border: none;
+    border-radius : 4px;
+    cursor: pointer;
+    width: 147.94px;
+    height: 45.41px;
+    position: absolute;
+    left: 415px;
+    top: 480px;
+    border-radius: 20px;
+    }
+    
+    input[type="button"] {
+    width: 100%;
+    background: linear-gradient(95.67deg, #616FD7 -5.25%, rgba(0, 255, 255, 0.76) 46.88%, #616FD7 93.54%);
+    box-shadow: 4px 2px 38px -8px rgba(252, 252, 252, 0.25);
+    border-radius: 40px;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius : 4px;
+    cursor: pointer;
+    width: 147.94px;
+    height: 45.41px;
+    position: absolute;
+    left: 220px;
+    top: 480px;
+    border-radius: 20px;
+    }
+    
+    input[type="submit"]:hover{
+        background-color : #4585a0 ;
+    }
+
+    input[type="button"]:hover{
+      background-color : #8773B2 ;
+  }
+    .droite{
+      position: absolute;
+      left:392px;
+      top: 120px;
+
+      border: 1px solid #FBFBFB;
+      
+    }
+    #M{
+      width: 0px;
+      height: 300px;
+      
+    }
+
+    *,
+    *:before,
+    *:after{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }

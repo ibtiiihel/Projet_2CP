@@ -1,0 +1,84 @@
+.sty-leh2{
+  position: absolute;
+  width: 400px;
+  height: 37px;
+  left: 200px;
+  top: 23px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 153.1%;
+  /* identical to box height, or 37px */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+input[type=email ] {
+  
+   background: #FFFFFF;
+   width: 292px;
+    height: 52px;
+   color: black;
+   font-family: 'Poppins';
+   font-style:normal;
+   font-weight: 750;
+   font-size: 16px;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   backdrop-filter: blur(30px);
+/* Note: backdrop-filter has minimal browser support */
+   border-radius: 47px;
+   padding:10px;
+   margin:10px 0;
+ 
+  }
+
+
+
+.email{
+  position: absolute;
+  left: 250px;
+  top :120px;
+  border-radius: 30px;
+
+}
+
+#select-role {
+  position: absolute;
+  left: 250px;
+  top :370px;
+  width: 292px;
+  height: 52px;
+  border-radius: 30px;
+  font-family: 'Poppins';
+   font-style:normal;
+   font-weight: 750;
+   font-size: 16px;
+
+}
+
+.btn-adduser{
+  background: linear-gradient(95.67deg, #616FD7 -5.25%, rgba(0, 255, 255, 0.76) 46.88%, #616FD7 93.54%);
+  box-shadow: 4px 2px 38px -8px rgba(252, 252, 252, 0.25);
+  border-radius: 40px;
+  color:white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius : 4px;
+  cursor: pointer;
+  width: 145px;
+  height: 55px;
+  position: absolute;
+  left: 220px;
+  top: 480px;
+  border-radius: 20px;
+  position: absolute;
+  left: 320px;
+  top :450px;
+  font-size: 20px;
+  font-family: "popins";
+}
+  

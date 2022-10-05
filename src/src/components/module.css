@@ -1,0 +1,133 @@
+
+
+.popup {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #texte{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+  }
+  .popup input{
+    
+    border-radius: 15px;
+   
+    border-width:thin;
+    position: relative;
+    margin-bottom: 0px;
+    border-width: thin;
+    background-color: #181b23;
+    color: white;
+    font-family:Poppins;
+    font-style: italic;
+    
+    
+  }
+  .popup input[type="text"]{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    color:black;
+    
+    width: 290px;
+    height: 42px;
+   
+  }
+   .popup label{
+     margin-bottom:20px;
+     margin-top: 10px;
+     font-weight: 600;
+     font-size: 23px;
+   }
+   #close{
+     cursor: pointer;
+     position: fixed;
+     left: 20px;
+     top: 13px;
+     height: 25px;
+     width: 25px;
+   }
+
+  #confirmer {
+    position: relative;
+    border-radius: 20px;
+
+    cursor: pointer;
+    left: 105px;
+   top: 33px;
+    width: 130px;
+    color: white;
+   
+    border-width:0ch;
+    height: 50px;
+    font-family:Poppins;
+    
+    background:linear-gradient(to right ,#8773B2,#616FD7);
+  }
+  #exit{
+   
+    cursor: pointer;
+    border-radius: 20px;
+    font-family:Poppins;
+    position: relative;
+    right: 115px;
+    border-width:0ch;
+    bottom: 16.5px;
+    width: 130px;
+    height: 50px;
+    background:linear-gradient(to right ,#8773B2,#616FD7);
+    color: white;
+  }
+  #firstimg{
+    position:fixed;
+    left: 500px;
+    top: 190px;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+   
+  }
+  #secondimg{
+    position:fixed;
+    right: 500px;
+    bottom: 220px;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+   
+  }
+  
+  .popup-inner{
+    z-index: 2;
+    position: fixed;
+    top: 140px;
+    color: white;
+    padding: 30px;
+    width:100%;
+    max-width: 500px;
+    background-color:#3E404A;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(245, 245,245, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-inner .close-btn {
+    position:absolute;
+    top: 16px;
+    right: 16px;
+  }

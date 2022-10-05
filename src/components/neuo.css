@@ -1,0 +1,43 @@
+
+.Neuo{
+    position:absolute;
+    left: 600px;
+    top: 130px;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+  
+}
+.Neuo button{
+    height: 50px;
+    width: 50px;
+    background: #2A2D37;;
+    box-shadow:  7px 7px 14px #1f2129,
+    -7px -7px 14px #353945;
+    cursor: pointer;
+   position: fixed;
+    transform: translate((-50%,-50%));
+    top:170px;
+    right: 290px;
+    border-radius: 15px;
+    border:0;
+
+}
+
+#font{
+    position: fixed;
+    opacity: 60%;
+    top: 198px;
+    height: 25px;
+    right: 313px;
+}
+#neuo:hover{
+   
+    box-shadow: inset 14px 14px 28px #1e2028,
+                inset -14px -14px 28px #363a46;
+}
+#pen{
+    position: fixed;
+    right: 305px;
+    top: 202px;
+}

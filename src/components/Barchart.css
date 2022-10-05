@@ -1,0 +1,29 @@
+.chart{
+    position: absolute;
+    top: 140px;
+    left:400px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+
+.label {
+    position: absolute;
+    top: 525px;
+    left:300px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 4px;
+    font-size: large;
+    font-weight: bold;
+}
+.la-bel{
+    position: absolute;
+    top: 670px;
+    left:700px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 4px;
+    font-size: large;
+    font-weight: bold;
+}

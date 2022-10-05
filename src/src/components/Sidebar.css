@@ -1,0 +1,82 @@
+.Sidebar {
+    position: absolute;
+    width: 275px;
+    left: 0px;
+    height: 720px;
+    background-color: #12141C;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 153.1%;
+    /* or 31px */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+}
+.Sidebarlogo {
+    position: absolute;
+    width: 209.03px;
+    height: 78px;
+    left: 40px;
+    top: 27px;
+}
+
+.Vector {
+ position: absolute;
+ width: 210px;
+ height: 0px;
+ left: 31px;
+ top: 140px;
+
+ transform: rotate(0.27deg);
+}
+
+.SidebarList {
+ padding:  0;
+ position: absolute;
+ width: 234px;
+ height: 59px;
+ left: 23px;
+ top: 171px;
+
+}
+
+
+.SidebarList .row {
+    width: 234px;
+    height: 59px;
+    border: 5 px;
+    list-style-type: none ;
+    font-style: italic;
+    font-size: 0.7em;
+    border-radius: 15em;
+    transition: 0.2s;
+    margin: 0%;
+    display:  flex;
+    flex-direction: row ;
+    color:  rgba(250, 250, 250, 1);
+    justify-content: center ;
+    align-items: center ;
+}
+
+.SidebarList .row:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #775fa8, #775fa8  );
+}
+.SidebarList .row #active {
+    background-image: linear-gradient(to right, #775fa8, #775fa8 );
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center ;
+
+}
+ .row #title {
+     flex : 70% ;
+ }
+

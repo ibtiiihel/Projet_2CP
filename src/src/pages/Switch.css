@@ -1,0 +1,28 @@
+body {
+    
+  margin: 0 ;
+  padding: 0;
+  background-color:#181B23 ;
+}
+.btn-add {
+  background: linear-gradient(149.19deg, #6970D0 10.94%, #8773B2 67.38%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  border-radius: 26px;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 790px;
+  top: 129px;
+  border: none ; 
+  color :white ;
+  padding: 5px 8px ;
+  text-align: center;
+  text-decoration: none ;
+  display: inline-block;
+  font-size : 16px;
+  margin: 4px 2px;
+  cursor: pointer ;
+ }
+
+ 

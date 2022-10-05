@@ -1,0 +1,52 @@
+ .Styled-table1 {
+    position: absolute;
+    top: 100px;
+    left:370px;
+   
+
+   
+}
+
+
+
+ #btnbloc{
+  background: linear-gradient(149.19deg, #6970D0 10.94%, #8773B2 67.38%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+ /* Note: backdrop-filter has minimal browser support */
+  
+   border-radius: 14px;
+    margin-bottom: 10px;
+    
+    
+    border: none ; 
+    color :white ;
+    padding: 6px 10px ;
+    text-align: center;
+    text-decoration: none ;
+    display: inline-block;
+    font-size : 20px;
+    margin: 6px 6px;
+    cursor: pointer ;
+ }
+ #btnsalle{
+  background: linear-gradient(149.19deg, #6970D0 10.94%, #8773B2 67.38%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+ /* Note: backdrop-filter has minimal browser support */
+
+   border-radius: 14px;
+    margin-bottom: 10px;
+    margin-left:20px !important ;
+    border: none ; 
+    color :white ;
+    padding: 6px 10px ;
+    text-align: center;
+    text-decoration: none ;
+    display: inline-block;
+    font-size : 20px;
+    margin: 6px 6px;
+    cursor: pointer ;
+ }

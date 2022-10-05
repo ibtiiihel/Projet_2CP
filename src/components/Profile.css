@@ -1,0 +1,55 @@
+ #log{
+    position: absolute;
+  width: 230px;
+  height: 50px;
+  left: 1298px;
+  top: 0px;
+  }
+  .btn-username {
+    background-color: #181B23;
+    color: #FFFFFF;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-family: "popins";
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 2px 2px;
+     cursor: pointer ;
+     border: none;
+
+  }
+  .btn-username:hover{
+    background-color: #365843 ;
+
+  }
+.btn-logout{
+    background-color: #12141C;
+    border: 1px solid rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    padding: 4px 4px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 115px;
+    height: 45px;
+
+    position: absolute;
+    left: 100px;
+    top: 600px;
+     
+    color :#FFFFFF ;
+    font-family: "popins";
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 2px 2px;
+     cursor: pointer ;
+  }
+  .btn-logout:hover {
+    background-color:  #70222a ;
+   }

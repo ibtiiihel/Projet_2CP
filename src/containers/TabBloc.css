@@ -1,0 +1,57 @@
+body.active-fenetre{
+    overflow-y: hidden;
+}
+
+.btn-fenetre{
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+.fenetre{
+background-color: antiquewhite;
+
+}
+#texte{
+    margin-bottom: 5px;
+}
+
+.fenetre, .overlay {
+    width :100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position :fixed;
+} 
+.overlay{
+    background: rgba(49,49,49,0,8,);
+}
+
+.Contenue-fenetre{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 1.4;
+    background-color: rgb(37, 34, 58);
+    padding: 14px,28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.fermer-fenetre{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+#nombloc{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+  }

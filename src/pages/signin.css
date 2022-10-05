@@ -1,0 +1,208 @@
+.logo_app img {
+    position : absolute; 
+    width: 350px;
+    height: 80px;
+    right: 20px;
+    top: 4px;
+}
+
+.signin {
+position: absolute;
+width: 440px;
+height: 533px;
+left: 550px;
+top: 109px;
+
+background: linear-gradient(105.81deg, rgba(255, 255, 255, 0.37) -64.54%, rgba(255, 255, 255, 0) 100.63%);
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(30px);
+
+border-radius: 47px;
+}
+
+
+.circle1 img {
+    position : absolute; 
+    left: 500px !important;
+    top: 61px;
+
+}
+
+.circle2 img {
+    position : absolute ; 
+    left: 900px !important;
+    top: 535px;
+}
+.sub-main h1 {
+
+position: absolute;
+width: 231px;
+height: 44px;
+left: 70px;
+top: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 53px;
+
+text-align: center;
+letter-spacing: 0.005em;
+
+color: #FFFFFF;
+
+}
+
+/*.app__signin__first-input text {
+
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: 300;
+font-size: 16px;
+line-height: 132.6%;
+letter-spacing: 0.005em;
+color: #FFFFFF;
+
+opacity: 0.52;
+}*/
+.app__signin__first-input input 
+{
+   position: absolute;
+   width: 360.77px;
+   height: 56.16px;
+   left: 40px;
+   top: 180px;
+   background: white;
+   color: black;
+   border: 1px solid rgba(0, 0, 0, 0.2);
+   box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+   backdrop-filter: blur(30px);
+   border-radius: 40px;
+   font-family: 'Poppins';
+   font-style:normal;
+   font-weight: 500;
+   font-size: 20px;
+    line-height: 132.6%;
+    letter-spacing: 0.005em;
+    
+    text-align: center ;
+
+
+}
+
+.app__signin__second-input input {
+    position: absolute;
+    width: 360.77px;
+    height: 56.16px;
+    
+    left: 40px;
+    top: 280px;
+
+    background: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 4px 28px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+
+
+   border-radius: 40px;
+   font-family: 'Poppins';
+   font-style:normal;
+   font-weight: 500;
+   font-size: 20px;
+    line-height: 132.6%;
+   letter-spacing: 0.005em;
+   text-align: center ;
+}
+
+
+.app__signin__link {
+    position: absolute;
+    left: 200px;
+    top: 360px;
+    
+
+}
+.app__signin__link p {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.005em;
+
+}
+.app__signin__button button {
+    position: absolute;
+    width: 210px;
+    height: 70px;
+    left: 110px;
+    top: 380px;
+    border-radius: 60px;
+    background: linear-gradient(149.19deg, #00FFFF 10.94%, #8773B2 58.27%);  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height:50px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    border: none;
+    cursor:pointer ; 
+}
+
+
+
+  
+  /* visited link */
+  a:visited {
+    color: #FFFFFF !important;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(167, 154, 187) !important;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(122, 98, 157)!important;
+  }
+
+  .mdpoublié{
+      border: 0ch;
+      position: absolute;
+      top:325px;
+      left:260px;
+      width: 170px;
+      height: 30px;
+      background :none;
+      font-size: 17px;
+      font-weight: 630;
+      font-style: italic;
+      color: aliceblue;
+      text-decoration: underline;
+  }
+  #connexionh1{
+    font-size: 40px;
+    position: absolute;
+    top:50px;
+    left:110px;
+
+  }
+  #usernameinput{
+    position: absolute;
+    top:140px;
+    left:60px;
+    width: 320px;
+  }
+  #mdpinput{
+    position: absolute;
+    top:230px;
+    left:60px;
+    width: 320px;
+  }

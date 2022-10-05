@@ -1,0 +1,103 @@
+.Pic {
+    position: absolute;
+    width: 524px;
+    height: 500px;
+    left: 745px;
+    top: 75px;
+}
+.location {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 310px;
+    top: 375px;
+}
+.Bienvenue {
+    position: absolute;
+    width: 719px;
+    height: 154px;
+    left: 186px;
+    top: 148px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 153.1%;
+    /* or 98px */
+    
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #FAFAFA;
+ }
+
+ .auswitch {
+    position: absolute;
+    width: 719px;
+    height: 45px;
+    left: 180px;
+    top: 242px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 153.1%;
+    /* or 49px */
+    
+    text-align: center;
+    letter-spacing: 0.005em;
+    
+    color: #FAFAFA;
+    
+    mix-blend-mode: lighten;
+ }
+ .esi {
+    position: absolute;
+    width: 416px;
+    height: 31px;
+    left: 351px;
+    top: 373px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 153.1%;
+    /* identical to box height, or 31px */
+    
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #FFFFFF;
+ }
+
+ .ouedsmar {
+    position: absolute;
+    width: 176px;
+    height: 28px;
+    left: 445px;
+    top: 406px;
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 153.1%;
+    /* identical to box height, or 28px */
+    
+    text-align: center;
+    letter-spacing: -0.025em;
+    
+    color: #FFFFFF;
+ }
+ 
+
+ #headerpic {
+   position: absolute;
+   width: 524px;
+   height: 503px;
+   left: 180px;
+   top: 160px;
+ }

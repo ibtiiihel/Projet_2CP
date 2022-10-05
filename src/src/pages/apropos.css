@@ -1,0 +1,49 @@
+.apropos { 
+   display : flex ; 
+   flex-direction: row ; 
+   flex: 1;
+   display: flex;
+   justify-content: center ; 
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.logoesi img {
+    position: absolute;
+    width: 209.03px;
+    height: 78px;
+    left: 40px;
+    top: 27px;
+    
+
+}
+
+.logoapp img {
+position: absolute;
+width: 293.58px;
+height: 65.91px;
+left: 1200px;
+top: 20px;
+} 
+
+.titre h1 {
+  font-family : 'poppins';
+  font-style: italic ;
+  font-weight: 900 ;
+  font-size:50px ;
+  margin-left: 1.5rem ;
+  margin-top: 9rem ;
+  letter-spacing: 0.005em; 
+  color : #8773B2
+
+}
+.text p {
+    color : #fff;
+    
+    font-family: 'poppins';
+    font-size : 30px ; 
+    font-weight: 500 ;
+   
+
+
+}

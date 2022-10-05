@@ -1,0 +1,22 @@
+.NomVLAN{
+    position: absolute;
+    left: 240px;
+    top: 130px;
+}
+.NumVlan{
+    position: absolute;
+    left: 240px;
+    top: 210px;
+}
+
+.IP{
+    position: absolute;
+    left: 240px;
+    top: 290px;
+}
+.Masque{
+    position: absolute;
+    left: 240px;
+    top: 370px;
+
+}
